@@ -1,0 +1,206 @@
+/* formating */
+.clear {
+	clear: both;
+}
+
+.pagecontain {
+	max-width: 1080px;
+	margin: 0 auto;
+}
+
+.content-bit {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0 15px;
+  margin-top: 15px;
+
+}
+
+
+/* Reset */
+.row-tablou1 {
+  margin-top: 15px;
+}
+
+.clear {
+  clear: both;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* */
+
+.control {
+  text-align: center;
+  width: 20%;
+  float: left;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 5px;
+}
+
+.control-culori .s-titlu {
+  margin-top:20px;
+  margin-bottom: 5px;
+}
+
+.control-culori .all-none {
+  margin-bottom: 10px;
+}
+
+.control-culori .all-none > button {
+  background: #eee none repeat scroll 0 0;
+  border: medium none #ccc;
+  font-size: 12px;
+}
+
+.control-culori .all-none > button:hover {
+  background: #ddd none repeat scroll 0 0;
+}
+
+.control-culori .all-none > button:active {
+  background: #ccc none repeat scroll 0 0;
+}
+
+.control-culori .mesaj {
+  display: none;
+  width: 90%;
+  margin: 10px auto 0;
+  border: 2px dashed #c00;
+  color: #c00;
+  font-weight: bold;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 10px;
+  
+}
+
+.avertisment {
+ 
+}
+
+.select-culori {
+  max-width: 48px;
+  margin: 0 auto;
+}
+
+.select-box {
+  float: left;
+  width: 20px;
+  height: 20px;
+  margin: 2px;
+  opacity: 0.85;
+  cursor: pointer;
+}
+
+.select-box:hover {
+  opacity: 1;
+}
+
+.selectat {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing:boreder-box;
+  border: 2px solid #000;
+}
+
+.selectat:before {
+  content: "\2713";
+  color: #fff;
+  position: relative;
+  top: -4px;
+}
+
+
+
+
+
+.tablou {
+  background: url('goldframe.jpg');
+  background-size: 100% 100%;
+  height: 515px;
+  width:80%;
+  float:left;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 2px solid #2E2D31;
+  border-radius:5px;
+}
+
+.interior {
+  background: transparent;
+  height: 100%;
+  width:100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 15px 2.27%;
+}
+
+.box {
+  float: left;
+  width: 4.76%;
+  height: 30px;/*echivalentul la 9.4% in JavasCript*/
+  background: #c00; /* alesa aleatoriu */
+}
+
+/* Culori */
+.verde {
+  background: #27AE60;
+}
+
+.albastru {
+  background: #2D8084;
+}
+
+.rosu {
+  background: #B81D1B;
+}
+
+.roz {
+  background: #8E44AD;
+}
+
+.asfalt {
+  background: #34495E;
+}
+
+.portocaliu {
+  background: #F39C12;
+}
+
+.galben {
+  background: #F1C40F;
+}
+
+.gri {
+  background: #BDC3C7;
+}
+
+
+/* Responsiveness */
+
+@media screen and (max-width: 640px){
+  .control{
+    float:none;
+    width: 90%;
+    margin: 0 auto 15px;
+  }
+  
+  .select-culori {
+    max-width: 192px;
+  }
+  
+  .tablou {
+    float:none;
+    width: 95%;
+    margin: 0 auto;
+  }
+  
+}
